@@ -2,7 +2,7 @@
 
 This is a [Create React App](https://create-react-app.dev/) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
-## How We Created This Example
+## How To Get Started
 
 To get started with React on Gitpod, you can use the `create-react-app`:
 
