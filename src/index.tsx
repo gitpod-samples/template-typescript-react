@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')ewr<ewrwe
+  document.getElementById('root')ewr<ewrweee42
 );
 
 // If you want to start measuring performance in your app, pass a function
