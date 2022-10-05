@@ -1,7 +1,7 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
   - init: yarn
-  - command: yarn start
+    command: yarn start
 ports:
   - port: 3000
     onOpen: open-preview
@@ -21,3 +21,7 @@ github:
     addComment: false
     # add a "Review in Gitpod" button to the pull request's description (defaults to false)
     addBadge: true
+jetbrains:
+  webstorm:
+    prebuilds:
+      version: both
