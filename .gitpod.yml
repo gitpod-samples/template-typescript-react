@@ -2,9 +2,12 @@
 tasks:
   - init: yarn
     command: yarn start
+
 ports:
   - port: 3000
     onOpen: open-preview
+    description: Website preview
+
 github:
   prebuilds:
     # enable for the default branch (defaults to true)
@@ -21,6 +24,7 @@ github:
     addComment: false
     # add a "Review in Gitpod" button to the pull request's description (defaults to false)
     addBadge: true
+
 jetbrains:
   webstorm:
     prebuilds:
